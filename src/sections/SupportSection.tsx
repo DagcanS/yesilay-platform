@@ -19,7 +19,7 @@ const SupportSection: React.FC = () => {
 
         <h2>Yalnız Değilsin.</h2>
         <p>
-          Yeşilay Danışmanlık Merkezi (YEDAM) her an yanında.
+          Bağımlılık danışmanlığı her an yanında.
           Ücretsiz, isimsiz ve tamamen gizli destek için uzmanlarımıza ulaşın.
         </p>
 
@@ -51,12 +51,12 @@ const SupportSection: React.FC = () => {
             <i className="fa-solid fa-phone-volume" /> 115
           </a>
           <a
-            href="https://www.yedam.org.tr"
+            href="https://iletisim.cu.edu.tr"
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-outline-white"
           >
-            <i className="fa-solid fa-globe" /> YEDAM Sitesi
+            <i className="fa-solid fa-graduation-cap" /> ÇÜ İletişim Fakültesi
           </a>
         </div>
       </div>

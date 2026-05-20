@@ -8,8 +8,8 @@ const Hero: React.FC = () => {
         <h2>Kontrolsüz müsünüz?</h2>
         <h1>KONTROL SİZ MİSİNİZ?</h1>
         <p>
-          12-25 yaş aralığındaki gençler için kumar ve bahis bağımlılığı farkındalık hareketi. 
-          Yeşilay'ın uzmanlığı ve Türkiye İş Bankası'nın desteğiyle.
+          12-25 yaş aralığındaki gençler için dijital oyun ve bahis bağımlılığı
+          farkındalık projesi. Çukurova Üniversitesi İletişim Fakültesi öğrencileri tarafından hazırlanmıştır.
         </p>
         <div className="hero-btns">
           <Link to="/#about" className="btn btn-primary">

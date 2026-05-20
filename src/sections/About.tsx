@@ -13,7 +13,7 @@ const About: React.FC = () => {
         <div className="card">
           <i className="fa-solid fa-shield-halved fa-3x icon-blue"></i>
           <h3>Uzman Rehberliği</h3>
-          <p>Yeşilay'ın 100 yılı aşkın tecrübesiyle hazırlanan bilimsel içerikler ve rehabilitasyon yolları.</p>
+          <p>Bağımlılık uzmanları ve akademisyenlerin katkılarıyla hazırlanan bilimsel içerikler ve rehberlik yolları.</p>
         </div>
         <div className="card">
           <i className="fa-solid fa-users-gear fa-3x icon-green"></i>

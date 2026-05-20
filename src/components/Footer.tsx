@@ -8,8 +8,11 @@ const Footer: React.FC = () => {
         <div className="footer-brand">
           <img src="/logo.svg" alt="Proje Logosu" className="footer-logo" />
           <p>
-            12-25 yaş aralığındaki gençler için Yeşilay ve Türkiye İş Bankası iş birliğiyle hazırlanan
-            kumar ve dijital bahis bağımlılığı farkındalık platformu.
+            12-25 yaş aralığındaki gençler için dijital bağımlılık
+            farkındalığı oluşturmayı amaçlayan akademik bir proje.
+          </p>
+          <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', marginTop: '8px' }}>
+            Çukurova Üniversitesi İletişim Fakültesi<br />İletişim Bilimleri Öğrencileri
           </p>
           <div className="footer-socials">
             <a href="#"><i className="fa-brands fa-instagram"></i></a>
@@ -33,14 +36,14 @@ const Footer: React.FC = () => {
           <h4>Acil Destek</h4>
           <p>Kendiniz veya bir yakınınız için hemen şimdi yardıma mı ihtiyacınız var?</p>
           <a href="tel:115" className="btn btn-primary" style={{ padding: '12px 25px', fontSize: '1rem', borderRadius: '12px' }}>
-            <i className="fa-solid fa-phone"></i> YEDAM 115
+            <i className="fa-solid fa-phone"></i> Destek Hattı 115
           </a>
           <span className="footer-note">Tamamen ücretsiz ve gizlidir.</span>
         </div>
       </div>
 
       <div className="footer-bottom">
-        <p>Yürütücü: <strong>Çukurova Üniversitesi İletişim Fakültesi Öğrencileri</strong> &nbsp;|&nbsp; Destekçi: <strong>YEŞİLAY</strong></p>
+        <p><strong>Çukurova Üniversitesi İletişim Fakültesi İletişim Bilimleri Öğrencileri</strong></p>
         <p className="copyright">&copy; 2026 Kontrolsüz müsünüz? Kontrol siz misiniz? Projesi. Tüm hakları saklıdır.</p>
       </div>
     </footer>

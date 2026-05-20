@@ -121,7 +121,7 @@ const QuizSection: React.FC = () => {
           <div style={{ display: 'flex', gap: '16px', justifyContent: 'center', flexWrap: 'wrap' }}>
             {result.showCall && (
               <a href="tel:115" className="btn btn-primary" style={{ padding: '14px 28px' }}>
-                <i className="fa-solid fa-phone" /> YEDAM 115'i Ara
+                <i className="fa-solid fa-phone" /> Destek Hattı 115'i Ara
               </a>
             )}
             <button className="btn btn-outline" style={{ padding: '14px 28px' }} onClick={handleReset}>
