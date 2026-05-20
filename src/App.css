@@ -213,6 +213,13 @@ nav .nav-list {
   margin-bottom: 40px;
 }
 
+.hero-btns {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 .btn {
   padding: 16px 36px;
   border-radius: var(--radius-lg);

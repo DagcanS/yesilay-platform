@@ -7,6 +7,7 @@ import PodcastPage from './pages/PodcastPage';
 import VideocastPage from './pages/VideocastPage';
 import ArticlesPage from './pages/ArticlesPage';
 import ArticleDetail from './pages/ArticleDetail';
+import NotFoundPage from './pages/NotFoundPage';
 import AdminLogin from './admin/AdminLogin';
 import AdminDashboard from './admin/AdminDashboard';
 import './index.css';
@@ -25,6 +26,9 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
         {/* Admin Routes */}
         <Route path="/admin/login" element={<AdminLogin />} />
         <Route path="/admin/dashboard" element={<AdminDashboard />} />
+
+        {/* 404 */}
+        <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
