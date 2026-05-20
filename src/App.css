@@ -1059,58 +1059,70 @@ section {
   color: var(--yesilay-green) !important;
 }
 
+/* ─── Page Hero ─────────────────────────────────────────────────────────────── */
+.page-hero {
+  padding: 130px 5% 80px;
+  text-align: center;
+  background: linear-gradient(180deg, var(--bg-subtle) 0%, var(--bg-light) 100%);
+}
+
+.page-hero h1 {
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 800;
+  color: var(--text-primary);
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.page-hero h1 i {
+  color: var(--isbank-blue);
+}
+
+/* ─── Responsive ─────────────────────────────────────────────────────────────── */
+/* Desktop nav visible, hamburger hidden */
+.hamburger-btn {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--text-primary);
+  padding: 8px;
+  z-index: 1001;
+}
+
 @media (max-width: 1024px) {
-  nav .nav-list {
-    gap: 20px;
-  }
   .logo-text-container {
     display: none;
   }
 }
 
-@media (max-width: 900px) {
-  header {
-    height: auto;
-    padding: 10px 5%;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
-  header.scrolled {
-    padding: 8px 5%;
-  }
-  nav {
-    width: 100%;
-    order: 3;
-    margin-top: 10px;
-  }
-  nav .nav-list {
-    gap: 15px;
-    justify-content: center;
-    padding-bottom: 10px;
-  }
-  .nav-link {
-    font-size: 0.85rem;
-  }
-  .btn-nav {
+@media (max-width: 768px) {
+  /* Hide desktop nav, show hamburger */
+  .desktop-nav {
     display: none;
+  }
+
+  .hamburger-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  header {
+    height: 70px !important;
+    padding: 0 5%;
+  }
+
+  .media-container {
+    grid-template-columns: 1fr;
   }
 }
 
 @media (max-width: 480px) {
   .logo-img {
-    height: 40px;
-  }
-  nav .nav-list {
-    gap: 10px;
-  }
-  .nav-link {
-    font-size: 0.75rem;
-  }
-}
-
-@media (max-width: 768px) {
-  .media-container {
-    grid-template-columns: 1fr;
+    height: 36px;
   }
 }
