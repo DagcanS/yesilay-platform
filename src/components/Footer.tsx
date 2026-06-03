@@ -35,9 +35,7 @@ const Footer: React.FC = () => {
         <div className="footer-contact">
           <h4>Acil Destek</h4>
           <p>Kendiniz veya bir yakınınız için hemen şimdi yardıma mı ihtiyacınız var?</p>
-          <a href="tel:115" className="btn btn-primary" style={{ padding: '12px 25px', fontSize: '1rem', borderRadius: '12px' }}>
-            <i className="fa-solid fa-phone"></i> Destek Hattı 115
-          </a>
+          
           <span className="footer-note">Tamamen ücretsiz ve gizlidir.</span>
         </div>
       </div>

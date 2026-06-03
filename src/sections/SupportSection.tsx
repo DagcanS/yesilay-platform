@@ -46,19 +46,7 @@ const SupportSection: React.FC = () => {
           ))}
         </div>
 
-        <div className="support-btns">
-          <a href="tel:115" className="btn btn-phone">
-            <i className="fa-solid fa-phone-volume" /> 115
-          </a>
-          <a
-            href="https://iletisim.cu.edu.tr"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn btn-outline-white"
-          >
-            <i className="fa-solid fa-graduation-cap" /> ÇÜ İletişim Fakültesi
-          </a>
-        </div>
+
       </div>
 
       <style>{`

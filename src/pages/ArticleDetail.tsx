@@ -137,12 +137,7 @@ const ArticleDetail: React.FC = () => {
             >
               <i className="fa-solid fa-arrow-left" /> Tüm Makaleler
             </Link>
-            <a
-              href="tel:115"
-              style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', background: 'var(--accent-gradient)', color: 'white', padding: '10px 20px', borderRadius: '99px', textDecoration: 'none', fontWeight: 700, fontSize: '0.9rem' }}
-            >
-              <i className="fa-solid fa-phone" /> Ücretsiz Destek: 115
-            </a>
+
           </div>
         </article>
       </div>

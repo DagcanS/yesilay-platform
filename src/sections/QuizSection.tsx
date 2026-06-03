@@ -119,14 +119,25 @@ const QuizSection: React.FC = () => {
             {result.text}
           </p>
           <div style={{ display: 'flex', gap: '16px', justifyContent: 'center', flexWrap: 'wrap' }}>
-            {result.showCall && (
-              <a href="tel:115" className="btn btn-primary" style={{ padding: '14px 28px' }}>
-                <i className="fa-solid fa-phone" /> Destek Hattı 115'i Ara
-              </a>
-            )}
+
             <button className="btn btn-outline" style={{ padding: '14px 28px' }} onClick={handleReset}>
               <i className="fa-solid fa-rotate-left" /> Testi Tekrarla
             </button>
+          </div>
+          
+          <div style={{
+            marginTop: '40px',
+            padding: '16px 20px',
+            background: 'rgba(0,0,0,0.02)',
+            borderRadius: '12px',
+            borderLeft: '4px solid #f59e0b',
+            fontSize: '0.75rem',
+            color: 'var(--text-secondary)',
+            textAlign: 'left',
+            lineHeight: '1.6',
+          }}>
+            <strong style={{ color: '#d97706', display: 'block', marginBottom: '4px' }}><i className="fa-solid fa-scale-balanced" style={{ marginRight: '6px' }}/>Yasal Uyarı</strong>
+            Bu değerlendirme, yapay zeka algoritmalarıyla analiz edilmiş olup tamamen genel farkındalık ve bilgilendirme amacı taşır. Sonuçlar <strong>tıbbi bir teşhis, klinik tanı veya profesyonel psikolojik değerlendirme yerine geçmez</strong>. Bağımlılık riski taşıdığınızı düşünüyorsanız, lütfen mutlaka bir uzman hekime veya sağlık kuruluşuna başvurunuz.
           </div>
         </div>
       </section>
@@ -152,6 +163,24 @@ const QuizSection: React.FC = () => {
           <button className="btn btn-primary" onClick={() => setStarted(true)}>
             TESTE BAŞLA <i className="fa-solid fa-arrow-right" />
           </button>
+
+          <div style={{
+            marginTop: '40px',
+            padding: '16px 20px',
+            background: 'rgba(255,255,255,0.7)',
+            borderRadius: '12px',
+            borderLeft: '4px solid #f59e0b',
+            fontSize: '0.8rem',
+            color: 'var(--text-secondary)',
+            textAlign: 'left',
+            lineHeight: '1.6',
+            maxWidth: '640px',
+            margin: '40px auto 0',
+            boxShadow: '0 2px 10px rgba(0,0,0,0.02)'
+          }}>
+            <strong style={{ color: '#d97706', display: 'block', marginBottom: '6px' }}><i className="fa-solid fa-scale-balanced" style={{ marginRight: '6px' }}/>Yasal ve Tıbbi Sorumluluk Reddi</strong>
+            Bu test ve sonuç analizleri, yapay zeka destekli algoritmalar kullanılarak sadece farkındalık yaratmak amacıyla hazırlanmıştır. Sorular ve çıkan sonuçlar <strong>kesinlikle tıbbi bir teşhis, tanı veya psikolojik tedavi tavsiyesi yerine geçmez</strong>. Ciddi bir bağımlılık riski hissettiğiniz durumlarda lütfen zaman kaybetmeden profesyonel sağlık uzmanlarına veya bağımlılık danışma merkezlerine başvurunuz.
+          </div>
         </div>
       </section>
     );
