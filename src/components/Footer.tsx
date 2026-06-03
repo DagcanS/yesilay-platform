@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
             farkındalığı oluşturmayı amaçlayan akademik bir proje.
           </p>
           <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', marginTop: '8px' }}>
-            Çukurova Üniversitesi İletişim Fakültesi<br />İletişim Bilimleri Öğrencileri
+            Çukurova Üniversitesi İletişim Fakültesi<br />Öğrencileri
           </p>
           <div className="footer-socials">
             <a href="#"><i className="fa-brands fa-instagram"></i></a>
@@ -35,13 +35,13 @@ const Footer: React.FC = () => {
         <div className="footer-contact">
           <h4>Acil Destek</h4>
           <p>Kendiniz veya bir yakınınız için hemen şimdi yardıma mı ihtiyacınız var?</p>
-          
+
           <span className="footer-note">Tamamen ücretsiz ve gizlidir.</span>
         </div>
       </div>
 
       <div className="footer-bottom">
-        <p><strong>Çukurova Üniversitesi İletişim Fakültesi İletişim Bilimleri Öğrencileri</strong></p>
+        <p><strong>Çukurova Üniversitesi İletişim Fakültesi Öğrencileri</strong></p>
         <p className="copyright">&copy; 2026 Kontrolsüz müsünüz? Kontrol siz misiniz? Projesi. Tüm hakları saklıdır.</p>
       </div>
     </footer>
